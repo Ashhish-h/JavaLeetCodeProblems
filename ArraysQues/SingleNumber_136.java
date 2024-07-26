@@ -1,5 +1,3 @@
-package ArraysQues;
-
 class Solution {
     public int singleNumber(int[] nums) {
         int xor = nums[0];

@@ -13,6 +13,6 @@ public class ClimbingStairs_70 {
             prev = temp;
         }
         return current;
-    }s  
+    }
 }
 

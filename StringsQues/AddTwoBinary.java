@@ -1,4 +1,4 @@
-package StringQues;
+package StringsQues;
 
 public class AddTwoBinary {
     public String addBinary(String a, String b) {

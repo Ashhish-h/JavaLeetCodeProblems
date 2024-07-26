@@ -1,4 +1,4 @@
-package ArrayQues;
+
 class RemoveDuplicatesFromSortedArray_26{
     public int removeDuplicates(int[] nums) {
         int j = 1;

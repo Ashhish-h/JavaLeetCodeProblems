@@ -1,6 +1,6 @@
-package StringQues;
+package StringsQues;
 
-public LengthOfTheLastWord_58{
+class LengthOfTheLastWord_58{
     public int lengthOfLastWord(String s) {
         String[] word = s.split(" ");
         if(word.length == 0){

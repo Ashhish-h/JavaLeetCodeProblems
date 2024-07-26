@@ -1,5 +1,3 @@
-package ArraysQues;
-
 class SearchInsertPosition_35 {
     public int searchInsert(int[] nums, int target) {
         int start = 0;

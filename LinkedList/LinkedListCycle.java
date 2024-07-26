@@ -9,7 +9,7 @@ class ListNode {
     }
 }
 
-public class Solution {
+public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {
             return false;

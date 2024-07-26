@@ -24,4 +24,4 @@ public class RemoveNthNodeFromTheEndOfList_19 {
         return head;
     }
 }
-s
+
