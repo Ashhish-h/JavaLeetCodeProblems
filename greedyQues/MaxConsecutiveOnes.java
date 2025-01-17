@@ -1,5 +1,3 @@
-package greedyQues;
-
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int count = 0;

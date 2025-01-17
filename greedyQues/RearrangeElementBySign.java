@@ -1,5 +1,3 @@
-package greedyQues;
-
 public class RearrangeElementBySign {
     public int[] rearrangeArray(int[] nums) {
         int[] ans = new int[nums.length];
