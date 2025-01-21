@@ -1,20 +1,21 @@
+package SearchingQues;
 
-class Solution {
-    public int search(int[] nums, int target) {
+class SearchInsertPosition_35 {
+    public int searchInsert(int[] nums, int target) {
         int start = 0;
         int end = nums.length - 1;
-        while(start <= end){
+        while (start <= end) {
             int middle = start + (end - start) / 2;
-            if(nums[middle] == target){
+            if (nums[middle] == target) {
                 return middle;
             }
-
-            if(nums[middle] < target){
+            if (target > nums[middle]) {
                 start = middle + 1;
             } else {
                 end = middle - 1;
             }
+
         }
-        return -1;
+        return start;
     }
 }
